@@ -1,0 +1,138 @@
+ramp_rate = 0.6
+P=16 , R=10 , round=5
+length of recovery seq 5
+delete list [25, 17, 8, 32, 37, 24, 9, 28, 47, 15]
+num of failed bus 15
+failed bus [25, 17, 8, 32, 37, 24, 9, 28, 47, 15, 27, 26, 31, 30, 33]
+num of steady bus 42
+num of steady branch 47
+
+RRC_3
+(9, 17, 8) 0.776095299008635
+(8, 9, 47) 0.7662615925807489
+(47, 8, 9) 0.7662615925807489
+(8, 9, 17) 0.776095299008635
+(17, 9, 8) 0.776095299008635
+(9, 8, 17) 0.776095299008635
+(8, 17, 9) 0.776095299008635
+(8, 47, 9) 0.7662615925807489
+(9, 8, 47) 0.7662615925807489
+(17, 8, 9) 0.776095299008635
+RRC_2
+(17, 8) 0.6793572113847143
+(17, 9) 0.6561720498880721
+(9, 8) 0.7425167892548774
+(8, 9) 0.7425167892548774
+(47, 8) 0.6695235049568281
+(8, 15) 0.6633674448353059
+(8, 17) 0.6793572113847143
+(15, 8) 0.6633674448353059
+(8, 47) 0.6695235049568281
+(9, 17) 0.6561720498880721
+RRC_1
+(47,) 0.5496002558362654
+(15,) 0.5434441957147431
+(32,) 0.5271346338343466
+(28,) 0.5295330988167578
+(8,) 0.6457787016309566
+(9,) 0.6225935401343144
+(37,) 0.5258554525103939
+(17,) 0.5594339622641513
+(24,) 0.5258554525103939
+RRC_5
+(17, 8, 9, 47, 15) 0.8174288455388558
+(8, 47, 9, 17, 15) 0.8174288455388558
+(17, 9, 8, 47, 15) 0.8174288455388558
+(8, 17, 9, 47, 15) 0.8174288455388558
+(47, 8, 9, 17, 15) 0.8174288455388558
+(9, 17, 8, 47, 15) 0.8174288455388558
+(8, 9, 17, 47, 15) 0.8174288455388558
+(9, 8, 17, 47, 15) 0.8174288455388558
+(8, 9, 47, 17, 15) 0.8174288455388558
+(9, 8, 47, 17, 15) 0.8174288455388558
+RRC_4
+(17, 9, 8, 47) 0.7998401023345065
+(9, 17, 8, 47) 0.7998401023345065
+(8, 9, 17, 47) 0.7998401023345065
+(47, 8, 9, 17) 0.7998401023345065
+(9, 8, 17, 47) 0.7998401023345065
+(8, 47, 9, 17) 0.7998401023345065
+(17, 8, 9, 47) 0.7998401023345065
+(8, 9, 47, 17) 0.7998401023345065
+(8, 17, 9, 47) 0.7998401023345065
+(9, 8, 47, 17) 0.7998401023345065
+
+node num of SRG 5
+
+current length of seq: 2
+SRG recovery seq [8, 9]
+RRC recovery seq (9, 8)
+high degree based recovery seq [9, 15]
+low degree based recovery seq [17, 47]
+high load based recovery seq [8, 9]
+low load based recovery seq [37, 24]
+
+residual percent of power before recovery 0.5258554525103939
+residual percent of power after SRG recovery 0.7425167892548774
+residual percent of power after RRC recovery 0.7425167892548774
+residual percent of power after high degree based recovery 0.6401822833386637
+residual percent of power after low degree based recovery 0.5831787655900229
+residual percent of power after high load based recovery 0.7425167892548774
+residual percent of power after low load based recovery 0.5258554525103939
+average residual percent of power after random based recovery 0.5958938279501124
+
+
+current length of seq: 3
+SRG recovery seq [8, 9, 17]
+RRC recovery seq (9, 17, 8)
+high degree based recovery seq [9, 15, 32]
+low degree based recovery seq [17, 47, 28]
+high load based recovery seq [8, 9, 17]
+low load based recovery seq [37, 24, 32]
+
+residual percent of power before recovery 0.5258554525103939
+residual percent of power after SRG recovery 0.776095299008635
+residual percent of power after RRC recovery 0.776095299008635
+residual percent of power after high degree based recovery 0.6414614646626164
+residual percent of power after low degree based recovery 0.5868564118963868
+residual percent of power after high load based recovery 0.776095299008635
+residual percent of power after low load based recovery 0.5271346338343466
+average residual percent of power after random based recovery 0.6178925487687884
+
+
+current length of seq: 4
+SRG recovery seq [9, 17, 8, 47]
+RRC recovery seq (17, 9, 8, 47)
+high degree based recovery seq [9, 15, 32, 37]
+low degree based recovery seq [17, 47, 28, 32]
+high load based recovery seq [8, 9, 17, 47]
+low load based recovery seq [37, 24, 32, 28]
+
+residual percent of power before recovery 0.5258554525103939
+residual percent of power after SRG recovery 0.7998401023345065
+residual percent of power after RRC recovery 0.7998401023345065
+residual percent of power after high degree based recovery 0.6414614646626164
+residual percent of power after low degree based recovery 0.5881355932203395
+residual percent of power after high load based recovery 0.7998401023345065
+residual percent of power after low load based recovery 0.5308122801407105
+average residual percent of power after random based recovery 0.6545714742564764
+
+
+current length of seq: 5
+SRG recovery seq [9, 17, 8, 47, 15]
+RRC recovery seq (17, 8, 9, 47, 15)
+high degree based recovery seq [9, 15, 32, 37, 8]
+low degree based recovery seq [17, 47, 28, 32, 37]
+high load based recovery seq [8, 9, 17, 47, 15]
+low load based recovery seq [37, 24, 32, 28, 15]
+
+residual percent of power before recovery 0.5258554525103939
+residual percent of power after SRG recovery 0.8174288455388558
+residual percent of power after RRC recovery 0.8174288455388558
+residual percent of power after high degree based recovery 0.7613847137831793
+residual percent of power after low degree based recovery 0.5881355932203395
+residual percent of power after high load based recovery 0.8174288455388558
+residual percent of power after low load based recovery 0.5484010233450597
+average residual percent of power after random based recovery 0.6732331307962909
+
+
