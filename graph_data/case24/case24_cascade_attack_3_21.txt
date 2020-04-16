@@ -1,0 +1,14 @@
+ramp rate 0.3
+
+failed bus id
+[3, 10, 6, 4, 14, 15, 22, 7, 13, 16, 23, 9, 8, 11, 12, 18, 21, 17, 19, 20, 24]
+num of failed bus 21
+
+steady graph
+[1, 2, 5]
+num of steady bus 3
+
+isolate graph
+[17]
+[24]
+num of isolate bus 2
