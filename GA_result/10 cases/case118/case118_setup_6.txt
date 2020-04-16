@@ -1,0 +1,309 @@
+ramp_rate = 0.3
+P=30 , R=16 , round=9
+length of recovery seq 9
+delete list [78, 37, 19, 8, 31, 25, 89, 9, 1, 76, 41, 85, 57, 51, 53, 48, 117, 92, 84, 59, 82, 14, 97, 90, 116, 79, 46, 54, 68, 112]
+num of failed bus 36
+failed bus [78, 37, 19, 8, 31, 25, 89, 9, 1, 76, 41, 85, 57, 51, 53, 48, 117, 92, 84, 59, 82, 14, 97, 90, 116, 79, 46, 54, 68, 112, 10, 52, 58, 83, 88, 91]
+num of steady bus 82
+num of steady branch 101
+
+RRC_3
+(51, 59, 54) 0.6366081213986343
+(46, 59, 54) 0.6392012378531369
+(8, 59, 54) 0.639201237853137
+(1, 59, 46) 0.6377868106961355
+(19, 59, 54) 0.6432087814646409
+(14, 59, 54) 0.6359009078201335
+(59, 46, 54) 0.637079597117635
+(48, 59, 54) 0.6373153349771351
+(1, 59, 54) 0.6446232086216424
+(59, 54, 46) 0.637079597117635
+(19, 59, 46) 0.6363723835391341
+(54, 59, 46) 0.637079597117635
+(31, 59, 46) 0.6359009078201334
+(41, 59, 54) 0.641322878588639
+(1, 59, 31) 0.6349579563821327
+(31, 59, 54) 0.6427373057456403
+RRC_2
+(14, 59) 0.6245854905641223
+(41, 59) 0.6300074613326276
+(59, 78) 0.6212851605311192
+(59, 46) 0.6257641798616236
+(59, 85) 0.6216028161869187
+(54, 59) 0.6326005777871304
+(1, 59) 0.6333077913656311
+(19, 59) 0.6318933642086295
+(51, 59) 0.6252927041426231
+(46, 59) 0.6278858205971255
+(31, 59) 0.631421888489629
+(48, 59) 0.6259999177211237
+(59, 97) 0.6212851605311192
+(59, 31) 0.6229353255476208
+(8, 59) 0.6278858205971256
+(59, 54) 0.6326005777871304
+RRC_1
+(58,) 0.5847457923085825
+(59,) 0.6212851605311192
+(54,) 0.596061209564594
+(1,) 0.5967684231430945
+(51,) 0.5887533359200865
+(8,) 0.591346452374589
+(41,) 0.5934680931100912
+(46,) 0.591346452374589
+(31,) 0.5948825202670927
+(37,) 0.5847457923085825
+(48,) 0.5894605494985872
+(57,) 0.5847457923085826
+(68,) 0.5847457923085825
+(19,) 0.5953539959860931
+(14,) 0.5880461223415858
+(25,) 0.5847457923085825
+RRC_7
+(1, 59, 46, 54, 85, 31, 37) 0.6510700486244481
+(1, 59, 46, 54, 31, 19, 85) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 68) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 112) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 41) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 92) 0.6510700486244481
+(1, 59, 54, 46, 31, 85, 41) 0.6510700486244481
+(1, 59, 54, 85, 46, 31, 78) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 117) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 68) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 19) 0.6510700486244481
+(1, 59, 31, 54, 46, 85, 48) 0.6510700486244481
+(1, 59, 54, 31, 46, 85, 37) 0.6510700486244481
+(1, 59, 31, 54, 46, 85, 41) 0.6510700486244481
+(1, 59, 54, 31, 46, 85, 78) 0.6510700486244481
+(1, 59, 54, 46, 31, 85, 51) 0.6510700486244481
+RRC_6
+(1, 59, 46, 54, 31, 19) 0.6507523929686485
+(1, 59, 54, 46, 41, 31) 0.6507523929686485
+(1, 59, 54, 46, 31, 78) 0.6507523929686485
+(1, 59, 54, 46, 31, 68) 0.6507523929686485
+(1, 59, 31, 54, 46, 57) 0.6507523929686485
+(1, 59, 46, 54, 31, 85) 0.6510700486244481
+(1, 59, 54, 31, 46, 85) 0.6510700486244481
+(1, 59, 46, 54, 31, 78) 0.6507523929686485
+(1, 59, 46, 54, 31, 57) 0.6507523929686485
+(1, 59, 54, 46, 31, 112) 0.6507523929686485
+(1, 59, 46, 54, 31, 37) 0.6507523929686485
+(1, 59, 54, 85, 46, 31) 0.6510700486244481
+(1, 59, 54, 46, 85, 31) 0.6510700486244481
+(1, 59, 46, 54, 85, 31) 0.6510700486244481
+(1, 59, 31, 54, 46, 85) 0.6510700486244481
+(1, 59, 54, 46, 31, 85) 0.6510700486244481
+RRC_5
+(1, 59, 46, 54, 57) 0.6491022279521469
+(1, 59, 46, 54, 48) 0.6491022279521469
+(1, 59, 46, 54, 85) 0.6494198836079464
+(1, 59, 54, 46, 41) 0.6491022279521469
+(1, 59, 46, 54, 92) 0.6491022279521469
+(1, 59, 31, 54, 46) 0.6507523929686485
+(1, 59, 46, 54, 31) 0.6507523929686485
+(1, 59, 54, 85, 46) 0.6494198836079464
+(1, 59, 54, 46, 31) 0.6507523929686485
+(19, 59, 54, 46, 31) 0.6493379658116469
+(19, 59, 54, 31, 46) 0.6493379658116469
+(1, 59, 54, 31, 46) 0.6507523929686485
+(19, 59, 46, 54, 31) 0.6493379658116469
+(1, 59, 54, 46, 85) 0.6494198836079464
+(1, 59, 46, 54, 97) 0.6491022279521469
+(1, 59, 46, 54, 78) 0.6491022279521469
+RRC_4
+(19, 59, 54, 31) 0.6448589464811425
+(1, 59, 54, 31) 0.646273373638144
+(1, 59, 54, 78) 0.6446232086216424
+(1, 59, 54, 58) 0.6446232086216424
+(1, 59, 54, 85) 0.6449408642774419
+(1, 59, 46, 54) 0.6491022279521469
+(1, 59, 31, 54) 0.646273373638144
+(1, 59, 54, 117) 0.6446232086216424
+(41, 59, 54, 46) 0.6458018979191434
+(1, 59, 54, 97) 0.6446232086216424
+(31, 59, 46, 54) 0.6472163250761448
+(19, 59, 54, 46) 0.6476878007951453
+(19, 59, 46, 54) 0.6476878007951453
+(1, 59, 54, 46) 0.6491022279521469
+(1, 59, 54, 41) 0.6446232086216424
+(31, 59, 54, 46) 0.6472163250761448
+RRC_9
+(1, 59, 46, 54, 31, 19, 85, 82, 58) 0.6510700486244481
+(1, 59, 54, 46, 31, 85, 51, 37, 76) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 68, 58, 57) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 112, 19, 97) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 117, 14, 68) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 117, 14, 41) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 112, 57, 37) 0.6510700486244481
+(1, 59, 54, 31, 46, 85, 37, 8, 82) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 68, 82, 117) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 41, 92, 112) 0.6510700486244481
+(1, 59, 46, 54, 31, 19, 85, 51, 76) 0.6510700486244481
+(1, 59, 54, 46, 31, 85, 51, 37, 48) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 112, 57, 68) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 41, 78, 19) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 68, 58, 117) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 41, 92, 14) 0.6510700486244481
+RRC_8
+(1, 59, 46, 54, 31, 85, 117, 14) 0.6510700486244481
+(1, 59, 54, 31, 46, 85, 37, 8) 0.6510700486244481
+(1, 59, 46, 54, 31, 19, 85, 58) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 37, 112) 0.6510700486244481
+(1, 59, 46, 54, 31, 19, 85, 51) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 68, 58) 0.6510700486244481
+(1, 59, 46, 54, 31, 19, 85, 82) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 41, 78) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 112, 57) 0.6510700486244481
+(1, 59, 54, 31, 46, 85, 37, 14) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 117, 37) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 112, 19) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 68, 82) 0.6510700486244481
+(1, 59, 46, 54, 31, 85, 68, 19) 0.6510700486244481
+(1, 59, 46, 54, 85, 31, 41, 92) 0.6510700486244481
+(1, 59, 54, 46, 31, 85, 51, 37) 0.6510700486244481
+
+node num of SRG 23
+
+current length of seq: 2
+SRG recovery seq [59, 54]
+RRC recovery seq (1, 59)
+high degree based recovery seq [37, 59]
+low degree based recovery seq [112, 117]
+high load based recovery seq [59, 54]
+low load based recovery seq [25, 37]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6326005777871304
+residual percent of power after RRC recovery 0.6333077913656311
+residual percent of power after high degree based recovery 0.6212851605311192
+residual percent of power after low degree based recovery 0.6054907239446032
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085825
+average residual percent of power after random based recovery 0.5871019331688346
+
+
+current length of seq: 3
+SRG recovery seq [1, 59, 54]
+RRC recovery seq (1, 59, 54)
+high degree based recovery seq [37, 59, 92]
+low degree based recovery seq [112, 117, 1]
+high load based recovery seq [59, 54, 78]
+low load based recovery seq [25, 37, 68]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6446232086216424
+residual percent of power after RRC recovery 0.6446232086216424
+residual percent of power after high degree based recovery 0.6212851605311192
+residual percent of power after low degree based recovery 0.6175133547791153
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085825
+average residual percent of power after random based recovery 0.5815040783389612
+
+
+current length of seq: 4
+SRG recovery seq [1, 59, 54, 31]
+RRC recovery seq (1, 59, 46, 54)
+high degree based recovery seq [37, 59, 92, 54]
+low degree based recovery seq [112, 117, 1, 14]
+high load based recovery seq [59, 54, 78, 76]
+low load based recovery seq [25, 37, 68, 57]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.646273373638144
+residual percent of power after RRC recovery 0.6491022279521469
+residual percent of power after high degree based recovery 0.6326005777871304
+residual percent of power after low degree based recovery 0.6208136848121185
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085824
+average residual percent of power after random based recovery 0.6044510018933021
+
+
+current length of seq: 5
+SRG recovery seq [1, 59, 54, 46, 31]
+RRC recovery seq (1, 59, 31, 54, 46)
+high degree based recovery seq [37, 59, 92, 54, 85]
+low degree based recovery seq [112, 117, 1, 14, 41]
+high load based recovery seq [59, 54, 78, 76, 112]
+low load based recovery seq [25, 37, 68, 57, 58]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6507523929686485
+residual percent of power after RRC recovery 0.6507523929686485
+residual percent of power after high degree based recovery 0.6329182334429301
+residual percent of power after low degree based recovery 0.6295359856136273
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085824
+average residual percent of power after random based recovery 0.5908806929657185
+
+
+current length of seq: 6
+SRG recovery seq [1, 59, 54, 46, 31, 85]
+RRC recovery seq (1, 59, 46, 54, 31, 85)
+high degree based recovery seq [37, 59, 92, 54, 85, 19]
+low degree based recovery seq [112, 117, 1, 14, 41, 48]
+high load based recovery seq [59, 54, 78, 76, 112, 92]
+low load based recovery seq [25, 37, 68, 57, 58, 14]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6510700486244481
+residual percent of power after RRC recovery 0.6510700486244481
+residual percent of power after high degree based recovery 0.6329182334429302
+residual percent of power after low degree based recovery 0.634250742803632
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085824
+average residual percent of power after random based recovery 0.6125765675087821
+
+
+current length of seq: 7
+SRG recovery seq [1, 59, 54, 46, 31, 85, 37]
+RRC recovery seq (1, 59, 46, 54, 85, 31, 37)
+high degree based recovery seq [37, 59, 92, 54, 85, 19, 68]
+low degree based recovery seq [112, 117, 1, 14, 41, 48, 57]
+high load based recovery seq [59, 54, 78, 76, 112, 92, 82]
+low load based recovery seq [25, 37, 68, 57, 58, 14, 97]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6510700486244481
+residual percent of power after RRC recovery 0.6510700486244481
+residual percent of power after high degree based recovery 0.6329182334429302
+residual percent of power after low degree based recovery 0.6342507428036319
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085824
+average residual percent of power after random based recovery 0.5829820366271226
+
+
+current length of seq: 8
+SRG recovery seq [1, 59, 54, 46, 31, 85, 37, 8]
+RRC recovery seq (1, 59, 46, 54, 31, 85, 117, 14)
+high degree based recovery seq [37, 59, 92, 54, 85, 19, 68, 8]
+low degree based recovery seq [112, 117, 1, 14, 41, 48, 57, 58]
+high load based recovery seq [59, 54, 78, 76, 112, 92, 82, 1]
+low load based recovery seq [25, 37, 68, 57, 58, 14, 97, 51]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6510700486244481
+residual percent of power after RRC recovery 0.6510700486244481
+residual percent of power after high degree based recovery 0.6329182334429302
+residual percent of power after low degree based recovery 0.6342507428036319
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085824
+average residual percent of power after random based recovery 0.5490056576494345
+
+
+current length of seq: 9
+SRG recovery seq [1, 59, 54, 46, 31, 85, 37, 112, 57]
+RRC recovery seq (1, 59, 46, 54, 31, 19, 85, 82, 58)
+high degree based recovery seq [37, 59, 92, 54, 85, 19, 68, 8, 25]
+low degree based recovery seq [112, 117, 1, 14, 41, 48, 57, 58, 76]
+high load based recovery seq [59, 54, 78, 76, 112, 92, 82, 1, 19]
+low load based recovery seq [25, 37, 68, 57, 58, 14, 97, 51, 48]
+
+residual percent of power before recovery 0.5847457923085825
+residual percent of power after SRG recovery 0.6510700486244481
+residual percent of power after RRC recovery 0.6510700486244481
+residual percent of power after high degree based recovery 0.0013765078417984386
+residual percent of power after low degree based recovery 0.6342507428036319
+residual percent of power after high load based recovery 0.6326005777871304
+residual percent of power after low load based recovery 0.5847457923085824
+average residual percent of power after random based recovery 0.5631550445978144
+
+
