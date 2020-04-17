@@ -35,7 +35,7 @@ The original data of IEEE power grids (e.g., IEEE 57, IEEE 118 and IEEE 300 Bus 
 - ```case118```:  The data of damaged power grids that were generated from IEEE 118 Bus System.
 - ```case300```:  The data of damaged power grids that were generated from IEEE 300 Bus System.
 
-Every ```TXT``` file decribes how a damaged power grid was generated:
+Every ```TXT``` file decribes how a damaged power grid was generated, for example:
 - ```case24_cascade_attack_1_6.txt```: In IEEE 24 Bus System, we attacked node with bus id of 1 and finally, six nodes were failed after cascading failure process. 
 
 ## Cite
